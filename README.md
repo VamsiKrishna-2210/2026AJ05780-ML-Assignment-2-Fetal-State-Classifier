@@ -4,6 +4,8 @@ Classifying fetal state from cardiotocography recordings.
 
 GitHub repository: https://github.com/VamsiKrishna-2210/Fetal-State-Classifier-ML-Assignment-2
 
+Live app: https://fetal-state-classifier-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
+
 ## a. Problem statement
 
 A cardiotocogram is the tracing taken during pregnancy of the fetal heart rate and the mother's contractions. Each row in this dataset is one tracing, reduced to 21 numbers: the baseline heart rate, how often the rate accelerates or decelerates, the short-term and long-term variability, and the shape of the heart-rate histogram. From those numbers I predict one of three states, Normal, Suspect or Pathologic, so a Suspect or Pathologic tracing can be looked at first. I trained logistic regression, a decision tree, k-nearest neighbours, Gaussian naive Bayes and a support vector machine on the same stratified split, and compared them with accuracy, AUC, precision, recall, F1 and MCC.
@@ -66,6 +68,8 @@ Settings: logistic regression with `max_iter=2000` and `class_weight=balanced`. 
 | Overall, winner for this dataset | KNN. It leads on accuracy, precision, F1 and MCC. The SVM is the one I would keep beside it, because it misses 2 Pathologic tracings where KNN misses 7, and it has the best AUC. Naive Bayes is a poor match for this set of repeated histogram measurements. |
 
 ## e. Streamlit app
+
+The deployed app is https://fetal-state-classifier-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
 
 The page is headed Fetal state classifier. The model dropdown sits under the title. Down the left, the five models are stacked in F1 order, and clicking a card opens that model. The open model is the dark card. A line separates the cards from that model's confusion matrix and classification report. Each card shows accuracy, AUC, precision, recall, F1 and MCC, and the best figure in a metric is marked.
 
