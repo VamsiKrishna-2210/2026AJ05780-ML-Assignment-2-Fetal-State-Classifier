@@ -26,7 +26,7 @@ Logistic regression, k-nearest neighbours and the SVM are pipelines with `Standa
 
 ## c. GitHub repository
 
-https://github.com/VamsiKrishna-2210/Fetal-State-Classifier-ML-Assignment-2
+https://github.com/VamsiKrishna-2210/2026AJ05780-ML-Assignment-2-Fetal-State-Classifier
 
 This repository holds the training script, the Streamlit app, the requirements file, this README, the test split, and the five saved models.
 
