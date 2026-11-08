@@ -1,0 +1,54 @@
+Logistic Regression
+              precision    recall  f1-score   support
+
+      Normal     0.9932    0.8909    0.9393       330
+     Suspect     0.5926    0.8276    0.6906        58
+  Pathologic     0.6957    0.9143    0.7901        35
+
+    accuracy                         0.8842       423
+   macro avg     0.7605    0.8776    0.8067       423
+weighted avg     0.9137    0.8842    0.8929       423
+
+Decision Tree
+              precision    recall  f1-score   support
+
+      Normal     0.9802    0.9000    0.9384       330
+     Suspect     0.6711    0.8793    0.7612        58
+  Pathologic     0.7727    0.9714    0.8608        35
+
+    accuracy                         0.9031       423
+   macro avg     0.8080    0.9169    0.8534       423
+weighted avg     0.9206    0.9031    0.9077       423
+
+KNN
+              precision    recall  f1-score   support
+
+      Normal     0.9469    0.9727    0.9596       330
+     Suspect     0.7500    0.7241    0.7368        58
+  Pathologic     1.0000    0.8000    0.8889        35
+
+    accuracy                         0.9243       423
+   macro avg     0.8990    0.8323    0.8618       423
+weighted avg     0.9243    0.9243    0.9232       423
+
+Naive Bayes
+              precision    recall  f1-score   support
+
+      Normal     0.9712    0.8182    0.8882       330
+     Suspect     0.4579    0.8448    0.5939        58
+  Pathologic     0.5526    0.6000    0.5753        35
+
+    accuracy                         0.8038       423
+   macro avg     0.6606    0.7543    0.6858       423
+weighted avg     0.8662    0.8038    0.8219       423
+
+Support Vector Machine
+              precision    recall  f1-score   support
+
+      Normal     0.9833    0.8939    0.9365       330
+     Suspect     0.5862    0.8793    0.7034        58
+  Pathologic     0.9167    0.9429    0.9296        35
+
+    accuracy                         0.8960       423
+   macro avg     0.8287    0.9054    0.8565       423
+weighted avg     0.9234    0.8960    0.9040       423
