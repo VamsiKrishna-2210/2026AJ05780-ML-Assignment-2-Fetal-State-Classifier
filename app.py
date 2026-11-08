@@ -37,13 +37,38 @@ PAGE_CSS = """
   padding-right: 3rem;
 }
 [data-testid="stSidebar"], [data-testid="collapsedControl"] { display: none; }
+.page-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin: 0.4rem 0 2rem;
+}
 .main-title {
   font-size: 2.35rem;
   font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 1.1;
-  margin: 0.4rem 0 2rem;
+  margin: 0;
   color: #17212b;
+}
+.who {
+  margin: 0.15rem 0 0;
+  text-align: right;
+  line-height: 1.35;
+  flex: 0 0 auto;
+}
+.who .name {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #17212b;
+}
+.who .bits {
+  margin-top: 0.12rem;
+  font-size: 0.84rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #5c6d7a;
 }
 .note { color: #5c6d7a; font-size: 0.95rem; line-height: 1.55; margin: 0.35rem 0 1.1rem; }
 .model-note {
@@ -442,7 +467,14 @@ def main():
                     )
 
     with header:
-        show('<h1 class="main-title">Fetal state classifier</h1>')
+        show(
+            "<header class='page-head'>"
+            "<h1 class='main-title'>Fetal state classifier</h1>"
+            "<div class='who'>"
+            "<div class='name'>Tiyyagura Vamsi Krishna Reddy</div>"
+            "<div class='bits'>2026AJ05780</div>"
+            "</div></header>"
+        )
         pick_col, note_col = st.columns([0.8, 1.8], gap="large")
         with pick_col:
             chosen = st.selectbox("Model", names, key="model_pick")

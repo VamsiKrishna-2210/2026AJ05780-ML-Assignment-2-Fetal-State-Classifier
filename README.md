@@ -71,7 +71,7 @@ Settings: logistic regression with `max_iter=2000` and `class_weight=balanced`. 
 
 The deployed app is https://fetal-state-classifier-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
 
-The page is headed Fetal state classifier. The model dropdown sits under the title. Down the left, the five models are stacked in F1 order, and clicking a card opens that model. The open model is the dark card. A line separates the cards from that model's confusion matrix and classification report. Each card shows accuracy, AUC, precision, recall, F1 and MCC, and the best figure in a metric is marked.
+The page is headed Fetal state classifier, with my name and BITS ID at the top right. The model dropdown sits under the title. Down the left, the five models are stacked in F1 order, and clicking a card opens that model. The open model is the dark card. A line separates the cards from that model's confusion matrix and classification report. Each card shows accuracy, AUC, precision, recall, F1 and MCC, and the best figure in a metric is marked.
 
 The test CSV, the switch for the included `test_data.csv`, and the column list are at the bottom of the page.
 
