@@ -2,9 +2,9 @@
 
 Classifying fetal state from cardiotocography recordings.
 
-GitHub repository: https://github.com/VamsiKrishna-2210/Fetal-State-Classifier-ML-Assignment-2
+GitHub repository: https://github.com/VamsiKrishna-2210/2026AJ05780-ML-Assignment-2-Fetal-State-Classifier
 
-Live app: https://fetal-state-classifier-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
+Live app: https://2026aj05780-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
 
 ## a. Problem statement
 
@@ -69,7 +69,7 @@ Settings: logistic regression with `max_iter=2000` and `class_weight=balanced`. 
 
 ## e. Streamlit app
 
-The deployed app is https://fetal-state-classifier-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
+The deployed app is https://2026aj05780-ml-assignment-2-yngbeu8z9fret6mpjerj6r.streamlit.app/
 
 The page is headed Fetal state classifier, with my name and BITS ID at the top right. The model dropdown sits under the title. Down the left, the five models are stacked in F1 order, and clicking a card opens that model. The open model is the dark card. A line separates the cards from that model's confusion matrix and classification report. Each card shows accuracy, AUC, precision, recall, F1 and MCC, and the best figure in a metric is marked.
 
